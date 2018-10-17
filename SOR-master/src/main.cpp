@@ -122,7 +122,7 @@ int main(int argc, char *argv[]) {
   int secs = (int)diff-(hrs*3600)-(mins*60);
 
   //Print nas informacoes uteis para o usuario
-  printf("Executado com sucesso com: %i threads \n Tempo necessario (H:M:S): %i:%i:%i \n",n, hrs, mins, secs);
+  printf("\n\nExecutado com sucesso com: %i threads \nTempo necessario (H:M:S): %i:%i:%i \n",n, hrs, mins, secs);
   
   return 0;
 
